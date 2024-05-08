@@ -34,7 +34,7 @@ function calculateComparison() {
         resultText = `You will save MYR ${(socarTotal - rentalTotal).toFixed(2)} by choosing Rental.`;
         betterOption = 'Rental is a better option.';
     } else if (rentalTotal > socarTotal) {
-        resultText = `You will spend MYR ${(rentalTotal - socarTotal).toFixed(2)} more by choosing SoCar.`;
+        resultText = `You will save MYR ${(rentalTotal - socarTotal).toFixed(2)} more by choosing SoCar.`;
         betterOption = 'SoCar is a better option.';
     } else {
         resultText = 'Both options cost the same.';
